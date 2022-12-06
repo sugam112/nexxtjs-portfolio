@@ -5,7 +5,7 @@ function Hero() {
     <div className="hero">
       <div className="title">Front&mdash;end</div>
       <div className="heroDescription">
-        <div className="title">Developer</div>
+        <div className="title subTitle">Developer</div>
         <div className="heroAbout">
           <span>ABOUT</span>
           <p>
