@@ -1,0 +1,66 @@
+.projects {
+  text-transform: uppercase;
+
+  .projectLabel {
+    margin: 0 auto;
+    max-width: 64.3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .projectItem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .pt2 {
+      padding-top: 1.5rem;
+    }
+    .marquee {
+      position: relative;
+      max-width: auto;
+
+      font-size: 5rem;
+      overflow-x: hidden;
+    }
+
+    .track {
+      white-space: nowrap;
+    }
+
+    .track > Link {
+      margin: 20px 0;
+      font-size: 8rem;
+      font-family: Antonio;
+      -webkit-text-fill-color: rgba(255, 255, 255, 0);
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: #f4955c;
+      text-transform: uppercase;
+    }
+    .item {
+      font-size: 30vw;
+      letter-spacing: -0.05em;
+      padding-right: 0.25em;
+      white-space: nowrap;
+      -webkit-user-select: none;
+      user-select: none;
+      /* will-change: transform; */
+    }
+
+    .drag {
+      cursor: -webkit-grabbing;
+      cursor: grabbing;
+    }
+
+    .bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #e6d5b8;
+    }
+  }
+}
